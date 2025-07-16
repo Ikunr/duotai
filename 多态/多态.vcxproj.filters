@@ -18,5 +18,8 @@
     <ClCompile Include="多态案例-计算器实现.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="多态案例二-制作饮品.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
