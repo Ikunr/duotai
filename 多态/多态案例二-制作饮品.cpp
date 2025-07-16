@@ -19,6 +19,7 @@ public:
 		addOther();
 	}
 
+
 };
 
 class coffer : public Abstract
