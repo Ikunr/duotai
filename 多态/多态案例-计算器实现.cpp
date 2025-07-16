@@ -4,7 +4,6 @@ using namespace std;
 class Abstract
 {
 public:
-
 	virtual int getResult()
 	{
 		return 0;
@@ -20,7 +19,6 @@ public:
 	{
 		return m_Num1 + m_Num2;
 	}
-
 };
 
 class SubCalculation : public Abstract
@@ -30,7 +28,6 @@ public:
 	{
 		return m_Num1 - m_Num2;
 	}
-
 };
 
 class MutCalculation : public Abstract
@@ -60,8 +57,10 @@ void test01()
 	abs->m_Num1 = 100;
 	abs->m_Num2 = 100;
 	cout << abs->m_Num1 << " * " << abs->m_Num2 << " = " << abs->getResult() << endl;
-
 }
+
+
+
 
 int main()
 {
