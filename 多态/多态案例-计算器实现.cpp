@@ -57,6 +57,7 @@ void test01()
 	abs->m_Num1 = 100;
 	abs->m_Num2 = 100;
 	cout << abs->m_Num1 << " * " << abs->m_Num2 << " = " << abs->getResult() << endl;
+	cout << "yse" << endl;
 }
 
 
