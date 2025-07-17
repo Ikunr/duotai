@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="多态案例-计算器实现.cpp" />
+    <ClCompile Include="多态案例三-电脑 组装.cpp" />
     <ClCompile Include="多态案例二-制作饮品.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
